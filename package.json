@@ -6,7 +6,8 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "build:css": "postcss styles.css -o output.css"
     },
     "dependencies": {
         "autoprefixer": "^10.3.7",
@@ -23,7 +24,6 @@
         "eslint": "^9",
         "eslint-config-next": "15.3.0",
         "postcss": "^8.5.3",
-        "typescript": "^5",
-        "build:css": "postcss styles.css -o output.css"
+        "typescript": "^5"
     }
 }
